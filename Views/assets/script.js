@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     // On Click Function to create profile object or redirect if invalid
     $("#profileSubmit").click(function () {
-        console.log("Handler for click succesful.");
+           console.log("Handler for click succesful.");
 
         // if all responses valid
         if ($("#clientName").val() !== '' && $("#dogName").val() !== '' && $(dogAge).val() !== '') {
@@ -59,20 +59,9 @@ $(document).ready(function () {
 
 });
 
-// var Dog = localStorage.getItem("Dog");
 
-// function dogProfileInfo(dog) {
-//     $("#dog owner").text(dog.clientName);
-//     $("#dog name").text(dog.dogName);
-//     $("#dog age").text(dog.dogAge);
-//     $("#dog breed").text(dog.dogBreed);
-//     $("#dog sex").text(dog.dogSex);
-//     $("#dog spayed/neutered").text(dog.dogSnipped);
 
-    
-// };
 
-// dogProfileInfo(Dog);
 
 
 

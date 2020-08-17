@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../connections')
 
-class dog extends Model {}
+class Dog extends Model {}
 
-dog.init(
+Dog.init(
   {
     clientName: {
       type: DataTypes.STRING,
@@ -36,4 +36,4 @@ dog.init(
 
 
 
-module.exports = dog;
+module.exports = Dog;
